@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'PL' do |pl|
-    pl.platform = :ios
+#     pl.platform = :ios
     pl.dependency 'Countly/Core'
     pl.dependency 'PLCrashReporter', '~> 1'
 
